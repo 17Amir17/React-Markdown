@@ -1,5 +1,14 @@
+import { useContext } from 'react';
+import { EditorTextContext } from '../Context/EditorTextContext';
+import Markdown from 'marked-react';
+
 function Preview(props) {
-  return <div id="preview"></div>;
+  const context = useContext(EditorTextContext);
+  return (
+    <div id="preview">
+      <Markdown>{context.text}</Markdown>
+    </div>
+  );
 }
 
 export default Preview;

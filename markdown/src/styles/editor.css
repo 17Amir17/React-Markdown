@@ -1,0 +1,8 @@
+#editor {
+  width: 100%;
+  height: 10vh;
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+  background-color: lightgray;
+}

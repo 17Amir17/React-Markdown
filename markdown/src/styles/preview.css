@@ -72,3 +72,9 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+img {
+  max-width: 30vw;
+  max-height: 20vh;
+  margin: auto;
+}

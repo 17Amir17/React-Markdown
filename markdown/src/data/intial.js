@@ -4,7 +4,7 @@ let initial = `# Welcome to my React Markdown Previewer!
 ## This is a sub-heading...
 ### And here's some other cool stuff:`;
 initial += 'Heres some code, `<div></div>`, between 2 backticks.\n';
-initial += `${backTick}
+initial += `${backTick}js
 // this is multi-line code:
 
 function anotherExample(firstLine, lastLine) {

@@ -6,7 +6,7 @@ function Preview(props) {
   const context = useContext(EditorTextContext);
   return (
     <div id="preview">
-      <Markdown>{context.text}</Markdown>
+      <Markdown breaks={true}>{context.text}</Markdown>
     </div>
   );
 }

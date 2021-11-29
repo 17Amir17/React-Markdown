@@ -1,12 +1,16 @@
 .window {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
   min-width: 50vw;
   flex-direction: column;
   border-style: solid;
-  border-color: darkblue;
-  background-color: lightgray;
-  margin: 1em;
+  border-width: thin;
+  border-color: black;
+  background-color: rgb(165 190 215);
+  margin: 1em auto 1em auto !important;
+  box-shadow: 1px 3px rgba(255, 255, 255, 0.116);
 }
 
 .window-header {
@@ -14,5 +18,7 @@
   height: 2em;
   text-align: center;
   border-style: none none solid none;
-  border-color: blue;
+  border-width: thin;
+  border-color: black;
+  background-color: lightslategrey;
 }
